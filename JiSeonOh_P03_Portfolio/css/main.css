@@ -22,7 +22,7 @@ h1, h2, h3, h4 {
 }
 
 section p {
-  font-family: 'Lato';font-size: 12px;
+  font-family: 'Lato';font-size: 13px;
 }
 
 .logo {
@@ -194,6 +194,13 @@ footer {
     width: 100%;
   }
 
+  #styleguide-content img {
+    margin: 0;
+    padding:0;
+    width: 99%;
+    height: auto;
+  }
+
 }
 
 
@@ -302,7 +309,6 @@ footer {
   margin-top: 13rem;
   background-color: #d8d064;
   color:white;
-  paddint: 10rem;
   margin-bottom: 10rem;
 }
 
@@ -312,7 +318,6 @@ footer {
 }
 
 #about p {
-
   margin-bottom: 1rem;
 }
 
@@ -327,8 +332,31 @@ footer {
 
 
 /* Styleguide page */
-.styleguide-template {
+#styleguide {
   margin-top: 16rem;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-left: 0.8rem;
+}
+
+#styleguide h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#styleguide-content {
+  background-color: #f9f6e8;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+  padding: 0.8rem;
+}
+
+#styleguide-content h2 {
+  margin-top: 4rem;
+  margin-bottom: 0.7rem;
+  color: #e0ce5f;
 }
 
 .styleguide-template h1 {
@@ -339,14 +367,45 @@ footer {
   color: gray;
 }
 
+.styleguide-template a {
+  color: #f2edc7;
+  text-decoration: none;
+  padding: 0.2rem;
+}
+
+.other-page:hover, .other-page:focus {
+  color: #ddbe05;
+}
+
 .navigation-style {
   margin-top: 2rem;
 }
 
-.navigation-style h2, h3 {
+.styleguide-nav h3 {
   color: #d8d064;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.navigation-style p, code {
+.styleguide-heading h3 {
+  color: #d8d064;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.styleguide-paragraphs h3 {
+  color: #d8d064;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.styleguide-paragraphs p, code {
   color: gray;
+}
+
+.styleguide-nav p, code {
+  color: gray;
+}
+
+.button-nav {
+  font-family: 'Bungee Hairline'
 }

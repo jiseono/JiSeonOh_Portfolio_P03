@@ -31,22 +31,20 @@
       </ul>
     </nav>
 
-    <section class="styleguide-template">
-      <h1>Style Guide Template</h1>
-      <p>A style guide template for a portfolio</p>
-      <p>
-        Other pages:
-        <a href="Citation.html">Citations</a>
-        <a href="Home.html">Go to Website</a>
-      </p>
+    <section id="styleguide">
+      <div class="styleguide-template">
+        <h1>Style Guide Template</h1>
+        <p>A style guide template for a portfolio</p>
+        <p>
+          Other pages:
+          <a class="other-page" href="Citation.html">Citations</a>
+          <a class="other-page" href="Home.html">Go to Website</a>
+        </p>
+      </div>
     </section>
 
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
-
-      <!-- Home Button styling section -->
-      <section class="navigation-style">
-
+    <section id="styleguide-content">
+      <div class="styleguide-nav">
         <h2>Navigation Button</h2>
 
         <h3>CSS selector:</h3>
@@ -56,220 +54,42 @@
         <code>&lt;a href="#" class="button"&gt;Home&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
-        <a class="button-nav" href="Home.html">works</a>
+        <a class="button-nav" href="Home.html">Home</a>
+      </div>
 
-      </section>
-
-      /* in-text link styling section*/
-      <section>
-        <h2>In-text link</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.textlink</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="textlink"&gt;READ MORE&lt;/a&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <a class="textlink" href="#">READ MORE</a>
-
-      </section>
-
-      /* submit button styling section */
-      <section>
-        <h2>Submit/Reset Buttons</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.button</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button"&gt;ADD TO CART&lt;/a&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <a class="button" href="#">ADD TO CART</a>
-      </section>
-
-      /* Text input field styling section */
-      <section class="text-input">
-        <h2>Text Input Field</h2>
-
-        <h3>CSS selector:</h3>
-        <p>input</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;input type="text" name="name" placeholder="Type your name"&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <label for="name">Name: </label>
-        <input type="text" name="form-name" placeholder="Type your name">
-      </section>
-
-    </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
-
-      <section>
+      <div class="styleguide-heading">
         <h2>Headings</h2>
 
         <h3>Sample code:</h3>
-        <code>&lt;h1&gt;Heading&lt;/h1&gt;  &lt;h2&gt;Heading&lt;/h2&gt;  &lt;h3&gt;Heading&lt;/h3&gt; </code>
+        <code>&lt;h1"&gt;Heading1&lt;h1&gt;</code>
+        <code>&lt;h2"&gt;Heading2&lt;h2&gt;</code>
+        <code>&lt;h3"&gt;Heading3&lt;h3&gt;</code>
 
         <h3>Rendered element:</h3>
-
-        <h1>Heading</h1>
         <h2>Heading</h2>
         <h3>Heading</h3>
+      </div>
 
-      </section>
-
-      <section>
+      <div class="styleguide-paragraphs">
         <h2>Paragraphs</h2>
 
-        <h3>Sample code:</h3>
-        <code>&lt;p&gt;Nutrition Balance offers the customers to buy various of health nutrition supplements. We have lots of helpful informations about nutritions so that the customers can search what they need and want. Also, customer can searcy by categories and brans so that they can find more easier in a short time. Nutrition Balance website is very helpful especially for someone who does not know what nutrition supplements to intake because we allow them to search the nutritions by their needs.&lt;/p&gt; </code>
-
-        <h3>Rendered element:</h3>
-        <p>Nutrition Balance offers the customers to buy various of health nutrition supplements. We have lots of helpful informations about nutritions so that the customers can search what they need and want. Also, customer can searcy by categories and brans so that they can find more easier in a short time. Nutrition Balance website is very helpful especially for someone who does not know what nutrition supplements to intake because we allow them to search the nutritions by their needs.</p>
-      </section>
-
-      <section>
-        <h2>Bulleted Lists</h2>
+        <h3>CSS selector:</h3>
+        <p>p</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;ul&gt; <br>
-          &lt;li&gt;Categories&lt;/li&gt; <br>
-          &lt;li&gt;Brands&lt;/li&gt; <br>
-          &lt;li&gt;Sale&lt;/li&gt; <br>
-          &lt;/ul&gt; </code>
+        <code>&lt;p&gt;This is a sampe code of paragraphs&lt;p&gt;</code>
 
         <h3>Rendered element:</h3>
-        <ul>
-          <li>Categories</li>
-          <li>Brands</li>
-          <li>Sale</li>
-        </ul>
-      </section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
 
-      <section>
-        <h2>Numbered Lists</h2>
-
-        <h3>Sample code:</h3>
-        <code>&lt;ol&gt; <br>
-          &lt;li&gt;Categories&lt;/li&gt; <br>
-          &lt;li&gt;Brands&lt;/li&gt; <br>
-          &lt;li&gt;Sale&lt;/li&gt; <br>
-          &lt;/ol&gt; </code>
-
-        <h3>Rendered element:</h3>
-        <ol>
-          <li>Categories</li>
-          <li>Brands</li>
-          <li>Sale</li>
-        </ol>
-      </section>
+      <div class="styleguide-color">
+        <h2>Color Scheme</h2>
+        <img class="color-scheme" src="img/colors.jpg" alt"color">
+      </div>
     </section>
-    <!-- // TEXT ELEMENTS SECTION -->
 
 
-
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
-
-      <section>
-        <h2>Main Navigation</h2>
-        <a class="button-nav" href="#">Home</a>
-        <a class="button-nav" href="#">About</a>
-        <a class="button-nav" href="#">Search</a>
-        <a class="button-nav" href="#">Products</a>
-        <a class="button-nav" href="#">Contact</a>
-      </section>
-
-      <!-- Product Listing -->
-      <section>
-        <h2>Product Listing</h2>
-
-        <div class="box"> <!--- larger box -->
-
-          <section id="Product1" class="box-item-article">
-              <div class="box-item-article-image"> <!-- Opening up the first item (note the weight) -->
-                <figure>
-                  <img alt="Nutrition Product" src="img/product1.jpg" width="200" height="280">
-                </figure>
-               </div>  <!-- Closing the first item -->
-          </section>
-
-          <section id="Product2" class="box-item-article">
-              <div class="box-item-article-image"> <!-- Opening up the first item (note the weight) -->
-                <figure>
-                  <img alt="Nutrition Product" src="img/product2.jpg" width="200" height="280">
-                </figure>
-              </div>  <!-- Closing the first item -->
-          </section>
-
-          <section id="Product3" class="box-item-article">
-              <div class="box-item-article-image"> <!-- Opening up the first item (note the weight) -->
-                <figure>
-                  <img alt="Nutrition Product" src="img/product3.jpg" width="200" height="280">
-                </figure>
-              </div>  <!-- Closing the first item -->
-          </section>
-
-        </div> <!-- Closing our box in a box -->
-      </section>
-
-      <!-- Grid Structure -->
-      <section>
-        <h2>Grid Structure</h2>
-
-        <h3>Smartwatch</h3>
-        <img alt="smartwatch" src="img/smartwatchgrid.jpg" > </img>
-
-        <h3>Smartphone</h3>
-        <img alt="smartwatch" src="img/smartphonegrid.jpg" > </img>
-
-        <h3>Gaming Console - connected to TV</h3>
-        <img alt="tvgrid" src="img/tvgrid.jpg" > </img>
-
-      </section>
-
-      <!-- Colour swatches -->
-      <section>
-        <h2>Colour swatches</h2>
-
-        <div class="color-box"> <!--- larger box -->
-
-          <section id="Color1" class="color-swatch">
-              <div class="color-swatch-box-1"> <!-- Opening up the first item (note the weight) -->
-                <p>#878787</p>
-               </div>  <!-- Closing the first item -->
-          </section>
-
-          <section id="Color2" class="color-swatch">
-              <div class="color-swatch-box-2"> <!-- Opening up the first item (note the weight) -->
-                <p>#e0e0e0</p>
-              </div>  <!-- Closing the first item -->
-          </section>
-
-          <section id="Color3" class="color-swatch">
-              <div class="color-swatch-box-3"> <!-- Opening up the first item (note the weight) -->
-                <p>#a1ce52</p>
-              </div>  <!-- Closing the first item -->
-          </section>
-
-          <section id="Color4" class="color-swatch">
-              <div class="color-swatch-box-4"> <!-- Opening up the first item (note the weight) -->
-                <p>#74a842</p>
-              </div>  <!-- Closing the first item -->
-          </section>
-
-        </div> <!-- Closing our box in a box -->
-      </section>
-    </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
 
     <footer class="footer">
        <p>&copy; Copyright 2018 JSO</p>
@@ -279,5 +99,6 @@
          <a href="https://github.com/jiseono/JiSeonOh_Portfolio_P03">Github</a>
        </section>
     </footer>
+
   </body>
 </html>
