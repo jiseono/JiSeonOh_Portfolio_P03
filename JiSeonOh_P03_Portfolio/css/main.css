@@ -27,6 +27,7 @@ section p {
 
 .logo {
   margin-bottom: 3rem;
+  width: 8%;
 }
 
 
@@ -98,6 +99,14 @@ footer {
   padding-bottom: 0.5rem;
 }
 
+.footer a {
+  display: inline;
+  text-decoration: none;
+}
+
+.footer-info {
+  text-align: center;
+}
 
 
 
@@ -151,8 +160,13 @@ footer {
     height: auto;
   }
 
+  .logo {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+  }
+
   #main-page {
-    margin-top:15rem;
+    margin-top:10rem;
     padding:6rem;
   }
 
@@ -179,6 +193,7 @@ footer {
     padding: 0;
     width: 100%;
   }
+
 }
 
 
@@ -284,7 +299,7 @@ footer {
 
 /* About Page */
 #about {
-  margin-top: 20rem;
+  margin-top: 13rem;
   background-color: #d8d064;
   color:white;
   paddint: 10rem;
@@ -299,6 +314,15 @@ footer {
 #about p {
 
   margin-bottom: 1rem;
+}
+
+.about-me a {
+  text-decoration: none;
+  color: #f2edc7;
+}
+
+.about-me:hover a, .about-me:focus a {
+  color: #ddbe05;
 }
 
 
